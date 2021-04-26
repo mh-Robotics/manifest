@@ -26,20 +26,11 @@ SOFTWARE.
  -->
 <manifest>
 
-  <remote  name="origin"
-           fetch=".."
+  <remote  name="mh-Robotics"
+           fetch="https://github.com/mh-Robotics"
            revision="master"
            review="https://www.mergimhalimi.com" />
 
-  <remote  name="github"
-           fetch="https://github.com"
-           revision="master"
-           review="https://www.mergimhalimi.com" />
-
-  <default remote="origin"
-           revision="master"
-           sync-j="4" />
-
-  <project name="https://github.com/mh-Robotics/jimmbot_bringup.git" path="jimmbot_bringup" groups="jimmbot_desktop"/>
+  <project name="jimmbot_bringup.git" path="src/jimmbot_bringup" groups="jimmbot_desktop" dest-branch="master" />
 
 </manifest>
