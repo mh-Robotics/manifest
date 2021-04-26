@@ -31,6 +31,8 @@ SOFTWARE.
            revision="master"
            review="https://www.mergimhalimi.com" />
 
+  <default revision="master" remote="origin"/>
+
   <project name="jimmbot_bringup.git" path="src/jimmbot_bringup" groups="jimmbot_desktop" dest-branch="master" />
 
 </manifest>
