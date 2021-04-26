@@ -33,7 +33,7 @@ SOFTWARE.
 
   <default revision="master" remote="origin"/>
 
-  <project name="jimmbot_base.git" path="src/jimmbot_base" groups="jimmbot_desktop" dest-branch="master" />
-  <project name="jimmbot_bringup.git" path="src/jimmbot_bringup" groups="jimmbot_desktop" dest-branch="noetic-devel" />
+  <project name="jimmbot_base.git" path="src/jimmbot_base" revision="master" upstream="master" dest-branch="master" groups="jimmbot_desktop" />
+  <project name="jimmbot_bringup.git" path="src/jimmbot_bringup" revision="noetic-devel" upstream="noetic-devel" dest-branch="noetic-devel" groups="jimmbot_desktop" />
 
 </manifest>
