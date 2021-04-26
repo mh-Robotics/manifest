@@ -12,3 +12,6 @@ catkin_make
 ```
 
 Master branch contains work under process. Stable branches for ros disctros named: distro-devel
+
+Or additionaly you can use vctool and .rosinstall to init.
+@todo: Add proper documentation on this.

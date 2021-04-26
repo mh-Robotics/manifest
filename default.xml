@@ -28,8 +28,7 @@ SOFTWARE.
 
   <remote  name="origin"
            fetch="https://github.com/mh-Robotics"
-           revision="master"
-           review="https://www.mergimhalimi.com" />
+           revision="master" />
 
   <default revision="master" remote="origin"/>
 
