@@ -28,12 +28,15 @@ SOFTWARE.
 
   <remote  name="origin"
            fetch="https://github.com/mh-Robotics"
-           revision="master" />
+           revision="master"
+           review="https://github.com/mh-Robotics" />
 
   <default revision="master" remote="origin"/>
 
   <project name="jimmbot_base.git" path="src/jimmbot_base" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_robot" />
-  <project name="jimmbot_bringup.git" path="src/jimmbot_bringup" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_robot" />
+  <project name="jimmbot_bringup.git" path="src/jimmbot_bringup" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_robot">
+    <linkfile src="jimmbot_bringup/install/init-env.sh" dest="init-env.sh"/>
+  </project>
   <project name="jimmbot_controller.git" path="src/jimmbot_controller" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_robot" />
   <project name="jimmbot_description.git" path="src/jimmbot_description" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_robot" />
   <project name="jimmbot_desktop.git" path="src/jimmbot_desktop" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_desktop" />
