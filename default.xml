@@ -33,7 +33,18 @@ SOFTWARE.
 
   <default revision="master" remote="origin"/>
 
-  <project name="jimmbot_base.git" path="src/jimmbot_base" revision="master" upstream="master" dest-branch="master" groups="jimmbot_desktop" />
-  <project name="jimmbot_bringup.git" path="src/jimmbot_bringup" revision="noetic-devel" upstream="noetic-devel" dest-branch="noetic-devel" groups="jimmbot_desktop" />
+  <project name="jimmbot_base.git" path="src/jimmbot_base" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_robot" />
+  <project name="jimmbot_bringup.git" path="src/jimmbot_bringup" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_robot" />
+  <project name="jimmbot_controller.git" path="src/jimmbot_controller" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_robot" />
+  <project name="jimmbot_description.git" path="src/jimmbot_description" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_robot" />
+  <project name="jimmbot_desktop.git" path="src/jimmbot_desktop" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_desktop" />
+  <project name="jimmbot_esp32_firmware.git" path="src/jimmbot_esp32_firmware" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_desktop" />
+  <project name="jimmbot_gazebo.git" path="src/jimmbot_gazebo" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_simulation" />
+  <project name="jimmbot_model.git" path="src/jimmbot_model" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_desktop" />
+  <project name="jimmbot_msgs.git" path="src/jimmbot_msgs" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_base" />
+  <project name="jimmbot_navigation.git" path="src/jimmbot_navigation" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_robot" />
+  <project name="jimmbot_robot.git" path="src/jimmbot_robot" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_desktop" />
+  <project name="jimmbot_simulation.git" path="src/jimmbot_simulation" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_gazebo" />
+  <project name="jimmbot_viz.git" path="src/jimmbot_viz" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_robot" />
 
 </manifest>
