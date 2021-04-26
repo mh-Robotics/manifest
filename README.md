@@ -5,12 +5,15 @@ The main repository to clone all the repositories neccesary for jimmBOT.
 
 Install repo tool
 ```bash
-$ mkdir jimmbot_ws
+$ mkdir ~/bin
+$ PATH=~/bin:$PATH
+$ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+$ chmod a+x ~/bin/repo
 ```
 
 Create a workspace
 ```bash
-$ mkdir -p ~/jimmbot_ws
+$ mkdir ~/jimmbot_ws
 $ cd ~/jimmbot_ws
 ```
 
@@ -42,7 +45,7 @@ $ sudo apt install python3-vcstool
 
 Create a workspace
 ```bash
-$ mkdir -p ~/jimmbot_ws
+$ mkdir ~/jimmbot_ws
 $ cd ~/jimmbot_ws
 ```
 
