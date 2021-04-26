@@ -1,7 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
 MIT License
 
-Mergim Halimi (m.halimi123@gmail.com)
-Copyright (c) 2021, mhRobotics, Inc., All rights reserved.
+@file      package.xml
+@author    Mergim Halimi (m.halimi123@gmail.com)
+@copyright Copyright (c) 2021, mhRobotics, Inc., All rights reserved.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -20,3 +23,23 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+ -->
+<manifest>
+
+  <remote  name="origin"
+           fetch=".."
+           revision="master"
+           review="https://www.mergimhalimi.com" />
+
+  <remote  name="github"
+           fetch="https://github.com"
+           revision="master"
+           review="https://www.mergimhalimi.com" />
+
+  <default remote="origin"
+           revision="master"
+           sync-j="4" />
+
+  <project name="https://github.com/mh-Robotics/jimmbot_bringup.git" path="jimmbot_bringup" groups="jimmbot_desktop"/>
+
+</manifest>
