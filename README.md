@@ -24,7 +24,7 @@ $ repo init -u https://github.com/mh-Robotics/manifest.git
 
 Additionally use a specific branch
 ```bash
-$ repo init -u https://github.com/mh-Robotics/manifest.git -b noetic-devel
+$ repo init -u https://github.com/mh-Robotics/manifest.git -b noetic
 ```
 
 Update the workspace
@@ -34,7 +34,7 @@ $ repo sync
 
 **Available manifest branches:**
 * master
-* noetic-devel
+* noetic
 
 ## Using vcstool
 
