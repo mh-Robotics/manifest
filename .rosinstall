@@ -2,31 +2,31 @@ repositories:
   src/jimmbot_base:
     type: git
     url: git@github.com:mh-Robotics/jimmbot_base.git
-    version: master
+    version: noetic
   src/jimmbot_bringup:
     type: git
     url: git@github.com:mh-Robotics/jimmbot_bringup.git
-    version: master
+    version: noetic
   src/jimmbot_controller:
     type: git
     url: git@github.com:mh-Robotics/jimmbot_controller.git
-    version: master
+    version: noetic
   src/jimmbot_description:
     type: git
     url: git@github.com:mh-Robotics/jimmbot_description.git
-    version: master
+    version: noetic
   src/jimmbot_desktop:
     type: git
     url: git@github.com:mh-Robotics/jimmbot_desktop.git
-    version: master
+    version: noetic
   src/jimmbot_esp32_firmware:
     type: git
     url: git@github.com:mh-Robotics/jimmbot_esp32_firmware.git
-    version: master
+    version: noetic
   src/jimmbot_gazebo:
     type: git
     url: git@github.com:mh-Robotics/jimmbot_gazebo.git
-    version: master
+    version: noetic
   src/jimmbot_model:
     type: git
     url: git@github.com:mh-Robotics/jimmbot_model.git
@@ -34,20 +34,20 @@ repositories:
   src/jimmbot_msgs:
     type: git
     url: git@github.com:mh-Robotics/jimmbot_msgs.git
-    version: master
+    version: noetic
   src/jimmbot_navigation:
     type: git
     url: git@github.com:mh-Robotics/jimmbot_navigation.git
-    version: master
+    version: noetic
   src/jimmbot_robot:
     type: git
     url: git@github.com:mh-Robotics/jimmbot_robot.git
-    version: master
+    version: noetic
   src/jimmbot_simulation:
     type: git
     url: git@github.com:mh-Robotics/jimmbot_simulation.git
-    version: master
+    version: noetic
   src/jimmbot_viz:
     type: git
     url: git@github.com:mh-Robotics/jimmbot_viz.git
-    version: master
+    version: noetic
