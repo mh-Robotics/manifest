@@ -40,7 +40,7 @@ SOFTWARE.
   <project name="jimmbot_controller.git" path="src/jimmbot_controller" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_robot" />
   <project name="jimmbot_description.git" path="src/jimmbot_description" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_robot" />
   <project name="jimmbot_desktop.git" path="src/jimmbot_desktop" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_desktop" />
-  <project name="jimmbot_esp32_firmware.git" path="src/jimmbot_esp32_firmware" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_desktop" />
+  <project name="jimmbot_boards_firmware.git" path="src/jimmbot_boards_firmware" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_desktop" />
   <project name="jimmbot_gazebo.git" path="src/jimmbot_gazebo" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_simulation" />
   <project name="jimmbot_model.git" path="src/jimmbot_model" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_desktop" />
   <project name="jimmbot_msgs.git" path="src/jimmbot_msgs" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_base" />

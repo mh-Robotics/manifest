@@ -19,9 +19,9 @@ repositories:
     type: git
     url: git@github.com:mh-Robotics/jimmbot_desktop.git
     version: master
-  src/jimmbot_esp32_firmware:
+  src/jimmbot_boards_firmware:
     type: git
-    url: git@github.com:mh-Robotics/jimmbot_esp32_firmware.git
+    url: git@github.com:mh-Robotics/jimmbot_boards_firmware.git
     version: master
   src/jimmbot_gazebo:
     type: git
