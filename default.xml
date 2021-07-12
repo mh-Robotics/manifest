@@ -33,19 +33,22 @@ SOFTWARE.
 
   <default revision="master" remote="origin"/>
 
+  <project name="jimmbot_audiofx.git" path="src/jimmbot_audiofx" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_robot" />
   <project name="jimmbot_base.git" path="src/jimmbot_base" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_robot" />
+  <project name="jimmbot_boards_firmware.git" path="src/jimmbot_boards_firmware" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_desktop" />
   <project name="jimmbot_bringup.git" path="src/jimmbot_bringup" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_robot">
     <linkfile src="jimmbot_bringup/install/init-env.sh" dest="init-env.sh"/>
   </project>
   <project name="jimmbot_controller.git" path="src/jimmbot_controller" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_robot" />
   <project name="jimmbot_description.git" path="src/jimmbot_description" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_robot" />
   <project name="jimmbot_desktop.git" path="src/jimmbot_desktop" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_desktop" />
-  <project name="jimmbot_boards_firmware.git" path="src/jimmbot_boards_firmware" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_desktop" />
+  <project name="jimmbot_docker.git" path="src/jimmbot_docker" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_robot" />
   <project name="jimmbot_gazebo.git" path="src/jimmbot_gazebo" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_simulation" />
   <project name="jimmbot_model.git" path="src/jimmbot_model" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_desktop" />
   <project name="jimmbot_msgs.git" path="src/jimmbot_msgs" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_base" />
   <project name="jimmbot_navigation.git" path="src/jimmbot_navigation" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_robot" />
   <project name="jimmbot_robot.git" path="src/jimmbot_robot" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_desktop" />
+  <project name="jimmbot_sensors.git" path="src/jimmbot_sensors" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_robot" />
   <project name="jimmbot_simulation.git" path="src/jimmbot_simulation" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_gazebo" />
   <project name="jimmbot_viz.git" path="src/jimmbot_viz" revision="master" upstream="origin" dest-branch="master" groups="jimmbot_robot" />
 

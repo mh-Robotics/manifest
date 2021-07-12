@@ -1,7 +1,15 @@
 repositories:
+  src/jimmbot_audiofx:
+    type: git
+    url: git@github.com:mh-Robotics/jimmbot_audiofx.git
+    version: master
   src/jimmbot_base:
     type: git
     url: git@github.com:mh-Robotics/jimmbot_base.git
+    version: master
+  src/jimmbot_boards_firmware:
+    type: git
+    url: git@github.com:mh-Robotics/jimmbot_boards_firmware.git
     version: master
   src/jimmbot_bringup:
     type: git
@@ -19,9 +27,9 @@ repositories:
     type: git
     url: git@github.com:mh-Robotics/jimmbot_desktop.git
     version: master
-  src/jimmbot_boards_firmware:
+  src/jimmbot_docker:
     type: git
-    url: git@github.com:mh-Robotics/jimmbot_boards_firmware.git
+    url: git@github.com:mh-Robotics/jimmbot_docker.git
     version: master
   src/jimmbot_gazebo:
     type: git
@@ -42,6 +50,10 @@ repositories:
   src/jimmbot_robot:
     type: git
     url: git@github.com:mh-Robotics/jimmbot_robot.git
+    version: master
+  src/jimmbot_sensors:
+    type: git
+    url: git@github.com:mh-Robotics/jimmbot_sensors.git
     version: master
   src/jimmbot_simulation:
     type: git
